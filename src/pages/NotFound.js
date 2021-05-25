@@ -5,10 +5,9 @@ const NotFound = () => {
     return (
 <div className="notFound">
     <div className="notFoundContent">
-        <h3>Désolée cette page n'existe pas </h3>
+        <h3 className="home">Bienvenue sur mon CV </h3>
     <NavLink exact to="/">
-        <i className="fas fa-home"></i>
-<span>Accueil</span>
+    <i class="fas fa-angle-right"></i><span>Home</span>
     </NavLink>
     
     

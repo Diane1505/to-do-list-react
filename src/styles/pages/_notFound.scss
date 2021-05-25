@@ -1,23 +1,38 @@
 .notFound {
   @include verticalCenter;
-  height: 95vh;
-  max-width: 1200px;
-  background: $color-3;
+  height: 70vh;
+  max-width: 900px;
+  background: #000000;
   border-radius: $borderRadius;
   text-align: center;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); 
+  vertical-align: middle;
   h3 {
     margin-bottom: 3rem;
     font-size: 2rem;
+    color: #FFDF2B;
+    font-family: poppins;
   }
   a {
     padding: 1rem 2rem;
     border-radius: $borderRadius;
-    background: $color-5;
+    background: #FFDF2B;
     transition: .2s;
+    font-family: poppins;
+    font-weight: bold;
 
     &:hover {
-      background: $color-4;
+      background: #43D8C9;
+      color: #FFDF2B;
+      font-family: poppins;
     }
   }
+}
+
+.home {
+  color: #43D8C9;
+
 }

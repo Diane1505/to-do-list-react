@@ -7,9 +7,6 @@ const Navigation = () => {
 <div className="sidebar">
 <div className="id">
 <div className="idContent"> 
-<img src="./media/billGates.jpg" width="200" height="270" alt="photo-cv"/>
-<h3>Diane Blin-Nouveau</h3>
-
 </div>
     
 </div>
@@ -18,26 +15,22 @@ const Navigation = () => {
 <ul>
     <li>
     <NavLink exact to="/" activeClassName="navActive">
-    <i className="fas fa-home"></i>
-    <span>Accueil</span>
+<i class="fas fa-angle-right"></i>    <span>Home</span>
     </NavLink>
     </li>
     <li>
     <NavLink exact to="/competences" activeClassName="navActive">
-    <i className="fas fa-mountain"></i>
-    <span>Compétences</span>
+<i class="fas fa-angle-right"></i>    <span>Compétences</span>
     </NavLink>
     </li>
     <li>
     <NavLink exact to="/portfolio" activeClassName="navActive">
-    <i className="fas fa-images"></i>
-    <span>Portfolio</span>
+<i class="fas fa-angle-right"></i>    <span>Travaux</span>
     </NavLink>
     </li>
     <li>
     <NavLink exact to="/contact" activeClassName="navActive">
-    <i className="fas fa-address-book"></i>
-    <span>Contact</span>
+<i class ="fas fa-angle-right "></i>    <span>Contact</span>
     </NavLink>
     </li>
 </ul>
@@ -47,29 +40,22 @@ const Navigation = () => {
 <div className="socialNetwork">
 <ul>
 <li>
-  <a href="https://www.instagram.com/kyliejenner/" target="blank" rel="noopener noreferrer">
-      <i className="fab fa-linkedin"></i>
+  <a href="https://github.com/Diane1505" target="blank" rel="noopener noreferrer">
+  <i className="fab fa-github"></i>
       </a>  
 </li>
 <li>
-  <a href="https://www.instagram.com/kyliejenner/" target="blank" rel="noopener noreferrer">
-      <i className="fab fa-github"></i>
-      </a>  
+  <a href="http://senseid.fr/" target="blank" rel="noopener noreferrer">
+  <i class="fas fa-window-restore"></i>      </a>  
 </li>
 <li>
-  <a href="https://www.instagram.com/kyliejenner/" target="blank" rel="noopener noreferrer">
-      <i className="fab fa-twitter"></i>
-      </a>  
-</li>
-<li>
-  <a href="https://www.instagram.com/kyliejenner/" target="blank" rel="noopener noreferrer">
-      <i className="fab fa-codepen"></i>
-      </a>  
+  <a href="" target="blank" rel="noopener noreferrer">
+  <i class="fab fa-linkedin"></i>      </a>  
 </li>
 
 </ul>
 <div className ="signature">
-    <p>SenseiD</p>
+    <p></p>
 </div>
 
 </div>

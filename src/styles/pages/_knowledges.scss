@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 .knowledges {
   .knowledgesContent {
     min-height: $minHeight;
@@ -12,16 +14,17 @@
       "O O H";
 
     .languagesFrameworks, .experience, .otherSkills, .hobbies {
-      background: $color-2;
+      background: #F2F2F2;
       border-radius: $borderRadius;
       padding: .8rem;
     }
     h3 {
       font-size: 1.4rem;
       margin-bottom: 1rem;
-      font-family: $font-2;
-      color: $color-5;
-      text-transform: uppercase;
+      font-family:'Poppins', sans-serif;
+      color: #43D8C9;
+      text-decoration: underline; 
+    text-transform: uppercase;
     }
 
     .languagesFrameworks {
@@ -52,6 +55,8 @@
 
         span {
           width: 36%;
+          font-weight: lighter;
+
 
           &:nth-child(2){
             text-align: center; 
@@ -78,7 +83,14 @@
 
         li {
           color: $color-1;
-        }
+          font-family: 'Poppins', sans-serif;
+                }
+
+.list{
+  padding-left: .5rem;
+
+}
+
         .progressBar {
           height: .4rem;
           background: transparent;
@@ -89,7 +101,7 @@
           &:after {
             content: '';
             position: absolute;
-            background: $color-3;
+            background: #FFDF2B;
             border-radius: 50px;
             height: .4rem;
             width: 0;
@@ -117,18 +129,31 @@
       
       h3 {
         grid-area: 1;
-      }
+        font-family: 'Poppins', sans-serif;
+        color: #43D8C9;
+        text-decoration: underline; 
+ }
       h4 {
         font-size: 1.1rem;
-        color: $color-5;
+        color: #43D8C9;
       }
       h5 {
-        color: $color-3;
-        padding: 0.5rem 0 0.5rem 1rem;
-      }
+        color: #43D8C9;
+        padding: 0.7rem 0 0.3rem 1rem;
+         }
+
+
+      .contenu-experience{
+        color: #2A2438;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal; 
+ }
+
       p {
         text-align: justify;
         padding: 0 1rem;
+
+
       }
       .exp-1 {
         grid-area: 2;
@@ -140,6 +165,7 @@
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
+      
 
       .list {
         display: flex;
@@ -151,13 +177,18 @@
         ul {
           height: 80%;
           display: grid;
+          
 
           i {
-            color: $color-5;
+            color: #FFDF2B;
+            padding-right: 20px;
+            
+            
           }
         }
       }
     }
+    
     .hobbies {
       grid-area: H;
       padding-left: 1.5rem;
@@ -169,7 +200,8 @@
         li {
           i {
             position: absolute;
-            color: $color-5;
+            color: #FFDF2B;
+            
           }
           span {
             position: absolute;
@@ -184,6 +216,7 @@
   .knowledgesContent {
     h3 {
       font-size: 1.2rem !important;
+      
     }
     .languagesList {
       padding-top: .2rem !important;
@@ -193,6 +226,7 @@
     }
     .otherSkills, .hobbies {
       font-size: .8rem;
+      
     }
   }
 }
@@ -200,10 +234,12 @@
   .knowledgesContent {
     h4 {
       font-size: .9rem !important;
+      
     }
     h5 {
       font-size: .6rem !important;
       padding: .2rem 1rem !important;
+      
     }
   }
 }
@@ -213,8 +249,10 @@
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr 180px 180px !important;
     
+    
     .languages {
       grid-area: 1 !important;
+      
     }
     .experience {
       grid-area: 2 !important;
@@ -223,10 +261,12 @@
     .otherSkills {
       grid-area: 3 !important;
       margin-right: 0 !important;
+      
     }
     .hobbies {
       grid-area: 4 !important;
       margin-top: .5rem !important;
+      
     }
   }
 }
