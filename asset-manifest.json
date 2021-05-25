@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/to-do-list-react/static/css/main.1029d7f2.chunk.css",
-    "main.js": "/to-do-list-react/static/js/main.62f8c487.chunk.js",
-    "main.js.map": "/to-do-list-react/static/js/main.62f8c487.chunk.js.map",
-    "runtime-main.js": "/to-do-list-react/static/js/runtime-main.e75dc2b6.js",
-    "runtime-main.js.map": "/to-do-list-react/static/js/runtime-main.e75dc2b6.js.map",
-    "static/js/2.b9508403.chunk.js": "/to-do-list-react/static/js/2.b9508403.chunk.js",
-    "static/js/2.b9508403.chunk.js.map": "/to-do-list-react/static/js/2.b9508403.chunk.js.map",
-    "static/js/3.9017ebd1.chunk.js": "/to-do-list-react/static/js/3.9017ebd1.chunk.js",
-    "static/js/3.9017ebd1.chunk.js.map": "/to-do-list-react/static/js/3.9017ebd1.chunk.js.map",
+    "main.css": "/to-do-list-react/static/css/main.ea1cf093.chunk.css",
+    "main.js": "/to-do-list-react/static/js/main.d72a55b2.chunk.js",
+    "main.js.map": "/to-do-list-react/static/js/main.d72a55b2.chunk.js.map",
+    "runtime-main.js": "/to-do-list-react/static/js/runtime-main.e43e9712.js",
+    "runtime-main.js.map": "/to-do-list-react/static/js/runtime-main.e43e9712.js.map",
+    "static/js/2.e149b785.chunk.js": "/to-do-list-react/static/js/2.e149b785.chunk.js",
+    "static/js/2.e149b785.chunk.js.map": "/to-do-list-react/static/js/2.e149b785.chunk.js.map",
+    "static/js/3.5f8b444b.chunk.js": "/to-do-list-react/static/js/3.5f8b444b.chunk.js",
+    "static/js/3.5f8b444b.chunk.js.map": "/to-do-list-react/static/js/3.5f8b444b.chunk.js.map",
     "index.html": "/to-do-list-react/index.html",
-    "static/css/main.1029d7f2.chunk.css.map": "/to-do-list-react/static/css/main.1029d7f2.chunk.css.map",
-    "static/js/2.b9508403.chunk.js.LICENSE.txt": "/to-do-list-react/static/js/2.b9508403.chunk.js.LICENSE.txt",
-    "static/media/styles.scss": "/to-do-list-react/static/media/shape.1d026b20.svg"
+    "static/css/main.ea1cf093.chunk.css.map": "/to-do-list-react/static/css/main.ea1cf093.chunk.css.map",
+    "static/js/2.e149b785.chunk.js.LICENSE.txt": "/to-do-list-react/static/js/2.e149b785.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/to-do-list-react/static/media/shape.932d6667.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e75dc2b6.js",
-    "static/js/2.b9508403.chunk.js",
-    "static/css/main.1029d7f2.chunk.css",
-    "static/js/main.62f8c487.chunk.js"
+    "static/js/runtime-main.e43e9712.js",
+    "static/js/2.e149b785.chunk.js",
+    "static/css/main.ea1cf093.chunk.css",
+    "static/js/main.d72a55b2.chunk.js"
   ]
 }
